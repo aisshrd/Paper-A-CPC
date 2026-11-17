@@ -1,0 +1,10 @@
+  it0 (45s): dE=0.423 dphi=0.79 Te wall/max/axis 2.64/3.70/3.19 eV, nuiz wall/axis 3.01e+02/4.65e+01, |E|wall 328 V/m, ne axis/wall 11.45, ni axis/wall 12.35, phi axis 9.53 V, balance 1.457, lam_cons 5.5e-06
+  it1 (63s): dE=0.262 dphi=0.42 Te wall/max/axis 2.58/3.73/3.21 eV, nuiz wall/axis 1.63e+02/2.13e+01, |E|wall 332 V/m, ne axis/wall 11.90, ni axis/wall 11.74, phi axis 9.47 V, balance 1.322, lam_cons 9.7e-06
+  it2 (98s): dE=0.094 dphi=0.09 Te wall/max/axis 2.51/3.83/3.49 eV, nuiz wall/axis 0.00e+00/9.05e+00, |E|wall 330 V/m, ne axis/wall 10.89, ni axis/wall 11.04, phi axis 9.49 V, balance 1.064, lam_cons -2.5e+03
+  it3 (109s): dE=0.061 dphi=0.05 Te wall/max/axis 2.50/3.83/3.45 eV, nuiz wall/axis 0.00e+00/1.37e+01, |E|wall 331 V/m, ne axis/wall 11.09, ni axis/wall 11.26, phi axis 9.55 V, balance 1.035, lam_cons 6.9e-06
+  it4 (197s): dE=0.016 dphi=0.07 Te wall/max/axis 2.49/3.85/3.48 eV, nuiz wall/axis 0.00e+00/3.53e+00, |E|wall 331 V/m, ne axis/wall 11.14, ni axis/wall 11.20, phi axis 9.54 V, balance 0.975, lam_cons 8.0e-06
+  it5 (37s): dE=0.008 dphi=0.04 Te wall/max/axis 2.50/3.85/3.48 eV, nuiz wall/axis 0.00e+00/1.05e+01, |E|wall 331 V/m, ne axis/wall 11.10, ni axis/wall 11.25, phi axis 9.57 V, balance 1.023, lam_cons 8.0e-06
+  it6 (26s): dE=0.005 dphi=0.02 Te wall/max/axis 2.49/3.86/3.49 eV, nuiz wall/axis 0.00e+00/8.36e+00, |E|wall 331 V/m, ne axis/wall 11.18, ni axis/wall 11.25, phi axis 9.59 V, balance 1.033, lam_cons 7.8e-06
+  it7 (20s): dE=0.001 dphi=0.01 Te wall/max/axis 2.49/3.86/3.48 eV, nuiz wall/axis 0.00e+00/9.70e+00, |E|wall 331 V/m, ne axis/wall 11.27, ni axis/wall 11.26, phi axis 9.59 V, balance 1.046, lam_cons 7.7e-06
+  final re-limited solve: Te wall/max/axis 2.49/3.86/3.48, nuiz wall -5.36e+01 -5.92e+01, f0<0 cells 566, min f0/max -2.6e-06, balance 1.046, converged True after 8 it
+total 718.7722587585449 s
