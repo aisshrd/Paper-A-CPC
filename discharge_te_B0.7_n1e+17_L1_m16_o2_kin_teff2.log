@@ -1,0 +1,8 @@
+warm start from results/discharge_te_B0.74_n1e+17_L1_m16_o2_kin_teff2.pkl scale 0.9459459459459459
+  it0 (56s): dE=0.005 dphi=0.12 Te wall/max/axis 2.13/3.65/3.27 eV, nuiz wall/axis 2.11e+00/4.92e+01, |E|wall 221 V/m, ne axis/wall 20.85, ni axis/wall 20.44, phi axis 10.70 V, balance 0.813, lam_cons 6.5e-06
+  it1 (25s): dE=0.003 dphi=0.07 Te wall/max/axis 2.14/3.65/3.30 eV, nuiz wall/axis 2.15e+00/3.86e+01, |E|wall 220 V/m, ne axis/wall 20.48, ni axis/wall 20.17, phi axis 10.68 V, balance 0.805, lam_cons 7.2e-06
+  it2 (23s): dE=0.002 dphi=0.05 Te wall/max/axis 2.14/3.65/3.32 eV, nuiz wall/axis 2.17e+00/3.92e+01, |E|wall 220 V/m, ne axis/wall 20.24, ni axis/wall 20.07, phi axis 10.68 V, balance 0.798, lam_cons 7.7e-06
+  it3 (24s): dE=0.002 dphi=0.03 Te wall/max/axis 2.15/3.65/3.33 eV, nuiz wall/axis 2.18e+00/3.92e+01, |E|wall 220 V/m, ne axis/wall 20.14, ni axis/wall 20.05, phi axis 10.67 V, balance 0.794, lam_cons 8.0e-06
+  it4 (24s): dE=0.001 dphi=0.02 Te wall/max/axis 2.15/3.65/3.33 eV, nuiz wall/axis 2.19e+00/3.91e+01, |E|wall 220 V/m, ne axis/wall 20.09, ni axis/wall 20.06, phi axis 10.67 V, balance 0.791, lam_cons 8.2e-06
+  final re-limited solve: Te wall/max/axis 2.15/3.65/3.33, nuiz wall 2.19e+00 9.75e+00, f0<0 cells 0, min f0/max 0.0e+00, balance 0.790, converged True after 5 it
+total 231.33709168434143 s

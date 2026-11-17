@@ -1,0 +1,4 @@
+./keeper.sh: line 9: _c.sh: command not found
+[17:42] relaunch C
+./keeper.sh: line 12: syntax error near unexpected token `done'
+./keeper.sh: line 12: `done'

@@ -1,0 +1,24 @@
+skip results/discharge_te_B0.74_n1e+17_L1_m16_o2_kin_teff2.pkl
+[15:49] run results/discharge_te_B0.7_n1e+17_L1_m16_o2_kin_teff2.pkl
+./backup.sh: line 5: rsync: command not found
+[15:52] run results/discharge_te_B0.76_n1e+17_L1_m16_o2_kin_teff2.pkl
+./backup.sh: line 5: rsync: command not found
+./backup.sh: line 5: rsync: command not found
+[15:57] run results/discharge_te_B0.8_n1e+17_L1_m16_o2_kin_teff2.pkl
+[16:01] run results/discharge_te_B0.74_n1e+17_L1_m16_o2_kin_v1warm.pkl
+[16:17] run results/discharge_te_B0.74_n1e+17_L1_m16_o2_kin_v1_r0605.pkl
+[16:25] run results/discharge_te_B0.74_n1e+17_L1_m16_o2_kin_v1_pr02.pkl
+[16:40] run results/discharge_te_B0.74_n1e+17_L1_m16_o2_kin_v1cold.pkl
+[17:03] run results/discharge_te_B0.74_n1e+17_L1_m16_o2_and4_kin_v1.pkl
+[17:28] run results/discharge_te_B0.74_n3e+17_L1_m16_o2_kin_v1.pkl
+[17:50] run results/discharge_te_B0.74_n1e+17_L1_m16_o2_kin_teff2_cold.pkl
+[17:59] run results/discharge_te_B0.74_n1e+17_L1_m16_o2_and4_kin_teff2.pkl
+[18:03] run results/discharge_te_B0.74_n3e+17_L1_m16_o2_kin_teff2.pkl
+[18:12] run results/discharge_mag_B00_Bext0.74_kin.pkl
+[18:16] run results/discharge_mag_B010_Bext0.74_kin.pkl
+[18:26] run results/discharge_mag_B020_Bext0.74_kin.pkl
+[18:46] run results/discharge_mag_B040_Bext0.74_kin.pkl
+[19:07] run results/discharge_mag_B010_Bext0.68_kin.pkl
+[19:16] run results/discharge_mag_B020_Bext0.66_kin.pkl
+[19:36] run results/discharge_mag_B040_Bext0.6_kin.pkl
+[20:14] QUEUE A DONE

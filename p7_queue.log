@@ -1,0 +1,104 @@
+[22:42] N2 13.3 Pa B=2.400 G: beta=1.157 (final 1.143, conv True, 13 it) Te wall/max/axis 3.19/3.19/0.83 well 4.23
+[22:42] N2 B=2.342 G (warm, 14 it)
+Traceback (most recent call last):
+  File "/home/claude/p7_queue.py", line 31, in <module>
+    b, fn = run(gas, B, prev); pts.append((B, b)); prev = fn
+            ~~~^^^^^^^^^^^^^^
+  File "/home/claude/p7_queue.py", line 24, in run
+    subprocess.run(['python3', 'discharge_mix.py', gas, str(p), str(B), it], stdout=lf, stderr=subprocess.STDOUT, env=env, check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['python3', 'discharge_mix.py', 'N2', '13.3', '2.342', '14']' died with <Signals.SIGKILL: 9>.
+[23:17] N2 13.3 Pa B=2.400 G: beta=1.157 (final 1.143, conv True, 13 it) Te wall/max/axis 3.19/3.19/0.83 well 4.23
+[23:17] N2 B=2.342 G (resume, 14 it)
+[23:57] N2 13.3 Pa B=2.342 G: beta=0.952 (final 0.956, conv True, 5 it) Te wall/max/axis 3.15/3.15/0.81 well 4.11
+== N2: points [(2.4, 1.157), (2.342, 0.952)]  B* (log interp) = 2.357 G
+[23:57] Ar:0.9,N2:0.1 B=1.420 G (cold, 18 it)
+[01:07] Ar:0.9,N2:0.1 13.3 Pa B=1.420 G: beta=2.214 (final 2.187, conv True, 13 it) Te wall/max/axis 2.75/3.63/2.33 well 8.42
+[01:07] Ar:0.9,N2:0.1 B=1.312 G (warm, 14 it)
+[01:17] N2 13.3 Pa B=2.400 G: beta=1.157 (final 1.143, conv True, 13 it) Te wall/max/axis 3.19/3.19/0.83 well 4.23
+[01:17] N2 13.3 Pa B=2.342 G: beta=0.952 (final 0.956, conv True, 5 it) Te wall/max/axis 3.15/3.15/0.81 well 4.11
+== N2: points [(2.4, 1.157), (2.342, 0.952)]  B* (log interp) = 2.357 G
+[01:17] Ar:0.9,N2:0.1 13.3 Pa B=1.420 G: beta=2.214 (final 2.187, conv True, 13 it) Te wall/max/axis 2.75/3.63/2.33 well 8.42
+[01:17] Ar:0.9,N2:0.1 B=1.312 G (resume, 14 it)
+[02:13] Ar:0.9,N2:0.1 13.3 Pa B=1.312 G: beta=1.245 (final 1.223, conv True, 9 it) Te wall/max/axis 2.64/3.46/2.19 well 7.96
+[02:13] Ar:0.9,N2:0.1 B=1.273 G (warm, 14 it)
+[02:57] Ar:0.9,N2:0.1 13.3 Pa B=1.273 G: beta=0.977 (final 0.957, conv True, 7 it) Te wall/max/axis 2.61/3.41/2.13 well 7.77
+== Ar:0.9,N2:0.1: points [(0.95, 0.039), (1.42, 2.214), (1.312, 1.245), (1.273, 0.977)]  B* (log interp) = 1.277 G
+[02:57] Ar:0.5,N2:0.5 B=1.650 G (cold, 18 it)
+[03:09] N2 13.3 Pa B=2.400 G: beta=1.157 (final 1.143, conv True, 13 it) Te wall/max/axis 3.19/3.19/0.83 well 4.23
+[03:09] N2 13.3 Pa B=2.342 G: beta=0.952 (final 0.956, conv True, 5 it) Te wall/max/axis 3.15/3.15/0.81 well 4.11
+== N2: points [(2.4, 1.157), (2.342, 0.952)]  B* (log interp) = 2.357 G
+[03:09] Ar:0.9,N2:0.1 13.3 Pa B=1.420 G: beta=2.214 (final 2.187, conv True, 13 it) Te wall/max/axis 2.75/3.63/2.33 well 8.42
+[03:09] Ar:0.9,N2:0.1 13.3 Pa B=1.312 G: beta=1.245 (final 1.223, conv True, 9 it) Te wall/max/axis 2.64/3.46/2.19 well 7.96
+[03:09] Ar:0.9,N2:0.1 13.3 Pa B=1.273 G: beta=0.977 (final 0.957, conv True, 7 it) Te wall/max/axis 2.61/3.41/2.13 well 7.77
+== Ar:0.9,N2:0.1: points [(0.95, 0.039), (1.42, 2.214), (1.312, 1.245), (1.273, 0.977)]  B* (log interp) = 1.277 G
+[03:09] Ar:0.5,N2:0.5 B=1.650 G (resume, 14 it)
+[04:22] Ar:0.5,N2:0.5 13.3 Pa B=1.650 G: beta=0.282 (final 0.275, conv True, 12 it) Te wall/max/axis 2.78/2.84/0.98 well 4.68
+[04:22] Ar:0.5,N2:0.5 B=2.038 G (warm, 14 it)
+[05:09] N2 13.3 Pa B=2.400 G: beta=1.157 (final 1.143, conv True, 13 it) Te wall/max/axis 3.19/3.19/0.83 well 4.23
+[05:09] N2 13.3 Pa B=2.342 G: beta=0.952 (final 0.956, conv True, 5 it) Te wall/max/axis 3.15/3.15/0.81 well 4.11
+== N2: points [(2.4, 1.157), (2.342, 0.952)]  B* (log interp) = 2.357 G
+[05:09] Ar:0.9,N2:0.1 13.3 Pa B=1.420 G: beta=2.214 (final 2.187, conv True, 13 it) Te wall/max/axis 2.75/3.63/2.33 well 8.42
+[05:09] Ar:0.9,N2:0.1 13.3 Pa B=1.312 G: beta=1.245 (final 1.223, conv True, 9 it) Te wall/max/axis 2.64/3.46/2.19 well 7.96
+[05:09] Ar:0.9,N2:0.1 13.3 Pa B=1.273 G: beta=0.977 (final 0.957, conv True, 7 it) Te wall/max/axis 2.61/3.41/2.13 well 7.77
+== Ar:0.9,N2:0.1: points [(0.95, 0.039), (1.42, 2.214), (1.312, 1.245), (1.273, 0.977)]  B* (log interp) = 1.277 G
+[05:09] Ar:0.5,N2:0.5 13.3 Pa B=1.650 G: beta=0.282 (final 0.275, conv True, 12 it) Te wall/max/axis 2.78/2.84/0.98 well 4.68
+[05:09] Ar:0.5,N2:0.5 B=2.038 G (resume, 14 it)
+[05:32] N2 13.3 Pa B=2.400 G: beta=1.157 (final 1.143, conv True, 13 it) Te wall/max/axis 3.19/3.19/0.83 well 4.23
+[05:32] N2 13.3 Pa B=2.342 G: beta=0.952 (final 0.956, conv True, 5 it) Te wall/max/axis 3.15/3.15/0.81 well 4.11
+== N2: points [(2.4, 1.157), (2.342, 0.952)]  B* (log interp) = 2.357 G
+[05:32] Ar:0.9,N2:0.1 13.3 Pa B=1.420 G: beta=2.214 (final 2.187, conv True, 13 it) Te wall/max/axis 2.75/3.63/2.33 well 8.42
+[05:32] Ar:0.9,N2:0.1 13.3 Pa B=1.312 G: beta=1.245 (final 1.223, conv True, 9 it) Te wall/max/axis 2.64/3.46/2.19 well 7.96
+[05:32] Ar:0.9,N2:0.1 13.3 Pa B=1.273 G: beta=0.977 (final 0.957, conv True, 7 it) Te wall/max/axis 2.61/3.41/2.13 well 7.77
+== Ar:0.9,N2:0.1: points [(0.95, 0.039), (1.42, 2.214), (1.312, 1.245), (1.273, 0.977)]  B* (log interp) = 1.277 G
+[05:32] Ar:0.5,N2:0.5 13.3 Pa B=1.650 G: beta=0.282 (final 0.275, conv True, 12 it) Te wall/max/axis 2.78/2.84/0.98 well 4.68
+[05:32] Ar:0.5,N2:0.5 B=2.038 G (resume, 14 it)
+[06:27] Ar:0.5,N2:0.5 13.3 Pa B=2.038 G: beta=1.605 (final 1.605, conv True, 5 it) Te wall/max/axis 3.00/3.30/1.16 well 5.72
+[06:27] Ar:0.5,N2:0.5 B=1.924 G (warm, 14 it)
+[07:32] N2 13.3 Pa B=2.400 G: beta=1.157 (final 1.143, conv True, 13 it) Te wall/max/axis 3.19/3.19/0.83 well 4.23
+[07:32] N2 13.3 Pa B=2.342 G: beta=0.952 (final 0.956, conv True, 5 it) Te wall/max/axis 3.15/3.15/0.81 well 4.11
+== N2: points [(2.4, 1.157), (2.342, 0.952)]  B* (log interp) = 2.357 G
+[07:32] Ar:0.9,N2:0.1 13.3 Pa B=1.420 G: beta=2.214 (final 2.187, conv True, 13 it) Te wall/max/axis 2.75/3.63/2.33 well 8.42
+[07:32] Ar:0.9,N2:0.1 13.3 Pa B=1.312 G: beta=1.245 (final 1.223, conv True, 9 it) Te wall/max/axis 2.64/3.46/2.19 well 7.96
+[07:32] Ar:0.9,N2:0.1 13.3 Pa B=1.273 G: beta=0.977 (final 0.957, conv True, 7 it) Te wall/max/axis 2.61/3.41/2.13 well 7.77
+== Ar:0.9,N2:0.1: points [(0.95, 0.039), (1.42, 2.214), (1.312, 1.245), (1.273, 0.977)]  B* (log interp) = 1.277 G
+[07:32] Ar:0.5,N2:0.5 13.3 Pa B=1.650 G: beta=0.282 (final 0.275, conv True, 12 it) Te wall/max/axis 2.78/2.84/0.98 well 4.68
+[07:32] Ar:0.5,N2:0.5 13.3 Pa B=2.038 G: beta=1.605 (final 1.605, conv True, 5 it) Te wall/max/axis 3.00/3.30/1.16 well 5.72
+[07:32] Ar:0.5,N2:0.5 B=1.924 G (resume, 14 it)
+[08:26] Ar:0.5,N2:0.5 13.3 Pa B=1.924 G: beta=1.025 (final 1.022, conv True, 5 it) Te wall/max/axis 2.94/3.18/1.11 well 5.43
+== Ar:0.5,N2:0.5: points [(1.65, 0.282), (2.038, 1.605), (1.924, 1.025)]  B* (log interp) = 1.918 G
+[08:26] N2:0.79,O2:0.21 B=2.600 G (cold, 18 it)
+[09:33] N2 13.3 Pa B=2.400 G: beta=1.157 (final 1.143, conv True, 13 it) Te wall/max/axis 3.19/3.19/0.83 well 4.23
+[09:33] N2 13.3 Pa B=2.342 G: beta=0.952 (final 0.956, conv True, 5 it) Te wall/max/axis 3.15/3.15/0.81 well 4.11
+== N2: points [(2.4, 1.157), (2.342, 0.952)]  B* (log interp) = 2.357 G
+[09:33] Ar:0.9,N2:0.1 13.3 Pa B=1.420 G: beta=2.214 (final 2.187, conv True, 13 it) Te wall/max/axis 2.75/3.63/2.33 well 8.42
+[09:33] Ar:0.9,N2:0.1 13.3 Pa B=1.312 G: beta=1.245 (final 1.223, conv True, 9 it) Te wall/max/axis 2.64/3.46/2.19 well 7.96
+[09:33] Ar:0.9,N2:0.1 13.3 Pa B=1.273 G: beta=0.977 (final 0.957, conv True, 7 it) Te wall/max/axis 2.61/3.41/2.13 well 7.77
+== Ar:0.9,N2:0.1: points [(0.95, 0.039), (1.42, 2.214), (1.312, 1.245), (1.273, 0.977)]  B* (log interp) = 1.277 G
+[09:33] Ar:0.5,N2:0.5 13.3 Pa B=1.650 G: beta=0.282 (final 0.275, conv True, 12 it) Te wall/max/axis 2.78/2.84/0.98 well 4.68
+[09:33] Ar:0.5,N2:0.5 13.3 Pa B=2.038 G: beta=1.605 (final 1.605, conv True, 5 it) Te wall/max/axis 3.00/3.30/1.16 well 5.72
+[09:33] Ar:0.5,N2:0.5 13.3 Pa B=1.924 G: beta=1.025 (final 1.022, conv True, 5 it) Te wall/max/axis 2.94/3.18/1.11 well 5.43
+== Ar:0.5,N2:0.5: points [(1.65, 0.282), (2.038, 1.605), (1.924, 1.025)]  B* (log interp) = 1.918 G
+[09:33] N2:0.79,O2:0.21 B=2.600 G (resume, 14 it)
+[11:33] N2 13.3 Pa B=2.400 G: beta=1.157 (final 1.143, conv True, 13 it) Te wall/max/axis 3.19/3.19/0.83 well 4.23
+[11:33] N2 13.3 Pa B=2.342 G: beta=0.952 (final 0.956, conv True, 5 it) Te wall/max/axis 3.15/3.15/0.81 well 4.11
+== N2: points [(2.4, 1.157), (2.342, 0.952)]  B* (log interp) = 2.357 G
+[11:33] Ar:0.9,N2:0.1 13.3 Pa B=1.420 G: beta=2.214 (final 2.187, conv True, 13 it) Te wall/max/axis 2.75/3.63/2.33 well 8.42
+[11:33] Ar:0.9,N2:0.1 13.3 Pa B=1.312 G: beta=1.245 (final 1.223, conv True, 9 it) Te wall/max/axis 2.64/3.46/2.19 well 7.96
+[11:33] Ar:0.9,N2:0.1 13.3 Pa B=1.273 G: beta=0.977 (final 0.957, conv True, 7 it) Te wall/max/axis 2.61/3.41/2.13 well 7.77
+== Ar:0.9,N2:0.1: points [(0.95, 0.039), (1.42, 2.214), (1.312, 1.245), (1.273, 0.977)]  B* (log interp) = 1.277 G
+[11:33] Ar:0.5,N2:0.5 13.3 Pa B=1.650 G: beta=0.282 (final 0.275, conv True, 12 it) Te wall/max/axis 2.78/2.84/0.98 well 4.68
+[11:33] Ar:0.5,N2:0.5 13.3 Pa B=2.038 G: beta=1.605 (final 1.605, conv True, 5 it) Te wall/max/axis 3.00/3.30/1.16 well 5.72
+[11:33] Ar:0.5,N2:0.5 13.3 Pa B=1.924 G: beta=1.025 (final 1.022, conv True, 5 it) Te wall/max/axis 2.94/3.18/1.11 well 5.43
+== Ar:0.5,N2:0.5: points [(1.65, 0.282), (2.038, 1.605), (1.924, 1.025)]  B* (log interp) = 1.918 G
+[11:33] N2:0.79,O2:0.21 B=2.600 G (resume, 14 it)
+[12:48] N2:0.79,O2:0.21 13.3 Pa B=2.600 G: beta=1.363 (final 1.354, conv True, 5 it) Te wall/max/axis 3.16/3.18/0.87 well 3.73
+[12:48] N2:0.79,O2:0.21 B=2.469 G (warm, 14 it)
+[14:59] N2:0.79,O2:0.21 13.3 Pa B=2.469 G: beta=0.832 (final 0.823, conv True, 14 it) Te wall/max/axis 3.07/3.07/0.84 well 3.39
+[14:59] N2:0.79,O2:0.21 B=2.517 G (warm, 14 it)
+[17:17] N2:0.79,O2:0.21 13.3 Pa B=2.517 G: beta=1.002 (final 1.071, conv False, 14 it) Te wall/max/axis 3.12/3.13/0.82 well 3.71
+== N2:0.79,O2:0.21: points [(2.6, 1.363), (2.469, 0.832), (2.517, 1.002)]  B* (log interp) = 2.517 G
+queue done

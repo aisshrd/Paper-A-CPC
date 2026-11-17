@@ -1,0 +1,12 @@
+dominant ion O2+ M=32.0 K0=2.601 cm2/Vs (ION_K0=2.6009709378876456) ion_model=kin teff_v2=1
+  it0 (495s): dE=0.008 dphi=0.38 Te wall/max/axis 3.05/3.11/0.83 eV, nuiz wall/axis 1.84e+04/0.00e+00, |E|wall 751 V/m, ne axis/wall 21.66, ni axis/wall 19.63, phi axis 5.40 V, balance 0.929, lam_cons -8.4e+03
+  it1 (186s): dE=0.005 dphi=0.25 Te wall/max/axis 3.05/3.10/0.83 eV, nuiz wall/axis 1.83e+04/0.00e+00, |E|wall 749 V/m, ne axis/wall 21.21, ni axis/wall 19.83, phi axis 5.31 V, balance 0.897, lam_cons -8.3e+03
+  it2 (192s): dE=0.001 dphi=0.18 Te wall/max/axis 3.05/3.09/0.82 eV, nuiz wall/axis 1.82e+04/0.00e+00, |E|wall 749 V/m, ne axis/wall 21.21, ni axis/wall 20.20, phi axis 5.25 V, balance 0.875, lam_cons -8.2e+03
+  it3 (182s): dE=0.008 dphi=0.10 Te wall/max/axis 3.06/3.10/0.82 eV, nuiz wall/axis 1.85e+04/0.00e+00, |E|wall 747 V/m, ne axis/wall 19.35, ni axis/wall 18.84, phi axis 5.22 V, balance 0.871, lam_cons -8.5e+03
+  it4 (130s): dE=0.004 dphi=0.09 Te wall/max/axis 3.05/3.09/0.82 eV, nuiz wall/axis 1.79e+04/0.00e+00, |E|wall 746 V/m, ne axis/wall 19.36, ni axis/wall 18.90, phi axis 5.19 V, balance 0.845, lam_cons -8.4e+03
+  it5 (159s): dE=0.002 dphi=0.06 Te wall/max/axis 3.05/3.08/0.83 eV, nuiz wall/axis 1.77e+04/0.00e+00, |E|wall 746 V/m, ne axis/wall 19.17, ni axis/wall 18.85, phi axis 5.16 V, balance 0.834, lam_cons -8.3e+03
+  it6 (158s): dE=0.005 dphi=0.04 Te wall/max/axis 3.05/3.08/0.82 eV, nuiz wall/axis 1.78e+04/0.00e+00, |E|wall 747 V/m, ne axis/wall 20.27, ni axis/wall 20.01, phi axis 5.15 V, balance 0.830, lam_cons -8.2e+03
+  it7 (157s): dE=0.001 dphi=0.01 Te wall/max/axis 3.06/3.09/0.82 eV, nuiz wall/axis 1.83e+04/0.00e+00, |E|wall 746 V/m, ne axis/wall 19.33, ni axis/wall 19.33, phi axis 5.15 V, balance 0.844, lam_cons -8.3e+03
+  final re-limited solve: Te wall/max/axis 3.05/3.09/0.82, nuiz wall 1.80e+04 3.48e+04, f0<0 cells 0, min f0/max 0.0e+00, balance 0.842, converged True after 8 it
+total 2388 s
+saved results/discharge_mix_N20.79_O20.21_p13.3_B2.326_kin.pkl

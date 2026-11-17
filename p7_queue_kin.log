@@ -1,0 +1,64 @@
+[15:47] N2 B=2.250 G (warm from discharge_mix_N2_p13.3_B2.342_opt.pkl, 18 it)
+Traceback (most recent call last):
+  File "/home/claude/p7_queue.py", line 34, in <module>
+    b, fn = run(gas, B, prev); pts.append((B, b)); prev = fn
+            ~~~^^^^^^^^^^^^^^
+  File "/home/claude/p7_queue.py", line 27, in run
+    subprocess.run(['python3', 'discharge_mix.py', gas, str(p), str(B), it], stdout=lf, stderr=subprocess.STDOUT, env=env, check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['python3', 'discharge_mix.py', 'N2', '13.3', '2.25', '18']' returned non-zero exit status 1.
+[15:47] Ar:0.9,N2:0.1 B=1.250 G (warm from discharge_mix_Ar0.9_N20.1_p13.3_B1.273_opt.pkl, 18 it)
+Traceback (most recent call last):
+  File "/home/claude/p7_queue.py", line 34, in <module>
+    b, fn = run(gas, B, prev); pts.append((B, b)); prev = fn
+            ~~~^^^^^^^^^^^^^^
+  File "/home/claude/p7_queue.py", line 27, in run
+    subprocess.run(['python3', 'discharge_mix.py', gas, str(p), str(B), it], stdout=lf, stderr=subprocess.STDOUT, env=env, check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['python3', 'discharge_mix.py', 'Ar:0.9,N2:0.1', '13.3', '1.25', '18']' returned non-zero exit status 1.
+[15:47] Ar:0.5,N2:0.5 B=1.880 G (warm from discharge_mix_Ar0.5_N20.5_p13.3_B1.924_opt.pkl, 18 it)
+Traceback (most recent call last):
+  File "/home/claude/p7_queue.py", line 34, in <module>
+    b, fn = run(gas, B, prev); pts.append((B, b)); prev = fn
+            ~~~^^^^^^^^^^^^^^
+  File "/home/claude/p7_queue.py", line 27, in run
+    subprocess.run(['python3', 'discharge_mix.py', gas, str(p), str(B), it], stdout=lf, stderr=subprocess.STDOUT, env=env, check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['python3', 'discharge_mix.py', 'Ar:0.5,N2:0.5', '13.3', '1.88', '18']' returned non-zero exit status 1.
+[15:49] N2 B=2.250 G (warm from discharge_mix_N2_p13.3_B2.342_opt.pkl, 18 it)
+[16:25] N2 13.3 Pa B=2.250 G: beta=1.485 (final 1.495, conv True, 14 it) Te wall/max/axis 3.04/3.22/0.82 well 6.49
+[16:25] N2 B=2.107 G (warm, 16 it)
+[16:51] N2 13.3 Pa B=2.107 G: beta=0.931 (final 0.921, conv True, 7 it) Te wall/max/axis 2.96/3.07/0.79 well 5.98
+== N2: points [(2.25, 1.485), (2.107, 0.931)]  B* (log interp) = 2.128 G
+queue done
+[16:51] Ar:0.9,N2:0.1 B=1.250 G (warm from discharge_mix_Ar0.9_N20.1_p13.3_B1.273_opt.pkl, 18 it)
+[17:26] Ar:0.9,N2:0.1 13.3 Pa B=1.250 G: beta=0.734 (final 0.725, conv True, 10 it) Te wall/max/axis 2.60/3.31/1.96 well 8.19
+[17:26] Ar:0.9,N2:0.1 B=1.287 G (warm, 16 it)
+[17:51] Ar:0.9,N2:0.1 13.3 Pa B=1.287 G: beta=0.891 (final 0.907, conv True, 8 it) Te wall/max/axis 2.64/3.37/2.02 well 8.34
+[17:51] Ar:0.9,N2:0.1 B=1.310 G (warm, 16 it)
+[18:06] Ar:0.9,N2:0.1 13.3 Pa B=1.310 G: beta=1.004 (final 1.015, conv True, 5 it) Te wall/max/axis 2.66/3.40/2.06 well 8.43
+== Ar:0.9,N2:0.1: points [(0.95, 0.039), (1.25, 0.734), (1.287, 0.891), (1.31, 1.004)]  B* (log interp) = 1.309 G
+queue done
+[18:06] Ar:0.5,N2:0.5 B=1.880 G (warm from discharge_mix_Ar0.5_N20.5_p13.3_B1.924_opt.pkl, 18 it)
+[18:38] Ar:0.5,N2:0.5 13.3 Pa B=1.880 G: beta=1.145 (final 1.155, conv True, 12 it) Te wall/max/axis 2.84/3.14/1.09 well 7.09
+[18:38] Ar:0.5,N2:0.5 B=1.838 G (warm, 16 it)
+[18:56] Ar:0.5,N2:0.5 13.3 Pa B=1.838 G: beta=1.004 (final 0.993, conv True, 5 it) Te wall/max/axis 2.81/3.10/1.07 well 6.99
+== Ar:0.5,N2:0.5: points [(1.88, 1.145), (1.838, 1.004)]  B* (log interp) = 1.838 G
+queue done
+[20:14] N2:0.79,O2:0.21 B=2.450 G (warm from discharge_mix_N20.79_O20.21_p13.3_B2.469_opt.pkl, 18 it)
+[21:03] N2:0.79,O2:0.21 13.3 Pa B=2.450 G: beta=1.365 (final 1.399, conv True, 12 it) Te wall/max/axis 3.14/3.20/0.85 well 5.29
+[21:03] N2:0.79,O2:0.21 B=2.326 G (warm, 16 it)
+[21:42] N2:0.79,O2:0.21 13.3 Pa B=2.326 G: beta=0.838 (final 0.842, conv True, 8 it) Te wall/max/axis 3.05/3.09/0.82 well 4.91
+[21:42] N2:0.79,O2:0.21 B=2.370 G (warm, 16 it)
+[22:13] N2:0.79,O2:0.21 13.3 Pa B=2.370 G: beta=0.998 (final 1.006, conv True, 5 it) Te wall/max/axis 3.08/3.12/0.82 well 5.04
+== N2:0.79,O2:0.21: points [(2.45, 1.365), (2.326, 0.838), (2.37, 0.998)]  B* (log interp) = 2.370 G
+queue done
